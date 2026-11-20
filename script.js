@@ -1,4 +1,5 @@
 
+
 const redacoes = [
   { titulo: "Redação 01", texto: "Adicione aqui sua primeira redação." },
   { titulo: "Redação 02", texto: "Adicione aqui sua segunda redação." },
@@ -68,4 +69,6 @@ document.addEventListener("keydown", (evento) => {
     modal.classList.remove("ativo");
   }
 });
+
+
 
