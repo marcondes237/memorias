@@ -1,63 +1,147 @@
-
-
 const redacoes = [
-  { Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico: "Redação 01", texto: "As mudanças do ciclo da água são influenciadas pelo efeito estufa, que causam ondas de calor excessivas, podendo ser motivo de muitos desastres naturais, como que ocorreu rompimento da barragem de Brumadinho, quando a barragem da mina Córrego do Feijão se rompeu, ocasionando muitas mortes é a destruição do rio Paraopeba. A lama se espalhou por quilômetros, destruindo tudo por onde passou
-                Além, o agravamento do efeito estufa intensifica fenômenos climáticos extremos, como chuvas fortes e secas prolongadas, afetando diretamente o equilíbrio natural do ciclo da água afetando tanto o meio ambiente quanto as pessoas, especialmente em regiões mais vulneráveis, onde a falta de fiscalização e planejamento aumentam esses riscos. Assim é essencial enfatizar o papel das empresas e do governo na prevenção de catástrofes, as faltas de fiscalização e segurança contribuem para incidentes como esse, destacando a urgência de medidas mais rigorosas e sustentáveis
-                Desse modo, é essencial implementar medidas que reduza o efeito do aquecimento global e preservem o ciclo da água. Para prevenir futuras tragédias e assegurar uma vida mais sustentável e com menos preocupações, realizar uma fiscalização eficaz e promover a conscientização da população." },
-  { A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras: "Redação 02", texto: "É fundamental respeitar as diferenças das pessoas ao tentar diminuir os conflitos que surgem hoje em dia devido à diversidade de culturas, sociedades e opiniões. A intolerância para com o que é diferente cria as bases para preconceitos, discriminação e violência, e impede relações pacíficas entre os indivíduos.
-A educação serve como base para a formação de cidadãos conscientes de seus direitos e empáticos com os outros. Ela promove o diálogo, conectando as pessoas com aqueles que são diferentes encontrando pontos em comum por meio do respeito mútuo, fomentando assim um ambiente livre de discriminação contra pessoas em razão de suas diferenças
-                A diversidade é essencial para a democracia, pois cria espaço para que inúmeras ideias e perspectivas coexistam sem perder sua identidade. Portanto, para promover a justiça social, a paz e a equidade na sociedade, devemos reconhecer que a valorização e a compreensão das diferenças são componentes essenciais para o desenvolvimento de uma sociedade." },
-  { O uso da Inteligência Artificial e as deepfakes: o que é real e o que é fictício na vida online?: "Redação 03", texto: "Hoje em dia, a inteligência artificial está cada vez mais presente no cotidiano das pessoas, principalmente no ambiente online. Ela pode ser vista nas redes sociais, nos aplicativos de compras, nos estudos e até no atendimento de empresas. Apesar de trazer mais facilidade e rapidez para a rotina, seu uso também pode gerar problemas quando não existe controle. Por isso, é importante refletir sobre os benefícios e também sobre os riscos dessa tecnologia.
-                Em primeiro lugar, a inteligência artificial ajuda bastante no dia a dia. Ela contribui para a organização de tarefas, indica conteúdos de interesse e ainda auxilia os estudantes nos estudos, com ferramentas que explicam assuntos e tiram dúvidas de forma rápida. Além disso, muitas empresas utilizam a IA para melhorar o atendimento ao cliente, deixando os serviços mais práticos e eficientes.
-                Por outro lado, o uso exagerado e sem fiscalização pode causar consequências negativas. A propagação de fake news, a falta de privacidade e a dependência tecnológica são problemas que preocupam bastante. Muitas pessoas acabam acreditando em informações falsas criadas ou espalhadas pela inteligência artificial e isso pode gerar sérios prejuízos. ." },
-  {O RESPEITO ÀS DIFERENÇAS COMO CAMINHO PARA A SUPERAÇÃO DOS CONFLITOS SOCIAIS NA SOCIEDADE CONTEMPORÂNEA: "Redação 04", texto: "A sociedade contemporânea é muito preocupada com a sua imagem corporal, fazendo com que toda gente procure o emagrecimento acima de tudo para se adequar a determinados padrões de beleza. Neste cenário, o consumo de as chamadas “canetas emagrecedoras”, indicadas para o tratamento de doenças como o diabetes tipo 2, vem ganhando popularidade entre pessoas que não necessitam de uso médico. É um caso que demonstra como a estética já não é apenas uma opção, mas uma exigência, sobretudo para jovens que são expostos constantemente a corpos “perfeitos” nas redes sociais.
-                Mas o abuso desses remédios pode trazer uma série de riscos à saúde. Sem monitoramento médico, as pessoas podem experimentar reações adversas, como náuseas, fraqueza e até mais complicações de saúde. Além disso, esse excesso de busca do corpo perfeito pode afetar a saúde mental provocando insegurança e insatisfação constante. Um exemplo disto pode ser feito com o filme Cisne Negro, que demonstra que a busca pela perfeição pode levar uma pessoa a ultrapassar seus próprios limites e fazer mal a si mesma.
-Por isso, faz-se necessária uma maior conscientização em relação à forma adequada de utilização desses medicamentos e o risco de seguir ." },
-  { Inclusão digital no Brasil: caminhos e desafios na sociedade contemporânea: "Redação 05", texto: "Na nossa sociedade, a inclusão digital é um desafio que vai além de simplesmente ter acesso à internet. Trata-se de garantir que todas as pessoas possam participar, de forma justa, da vida social, educacional e profissional. Ainda assim, muitas continuam vivendo à margem desse processo, o que acaba reforçando as desigualdades já existentes.
-Nessa perspectiva, a Constituição Federal de 1988 assegura o direito à informação, mas na prática isso nem sempre se concretiza para todos. Em várias regiões periféricas e rurais, faltam estrutura, equipamentos e uma conexão de qualidade. Com isso, as oportunidades de estudo são limitadas, especialmente para os jovens**.** Além disso, como aponta Manuel Castells, a sociedade atual se organiza em redes digitais. Assim, quem não tem acesso à tecnologia acaba ficando de fora de espaços importantes, o que reduz as chances de crescimento pessoal e profissional**.**
-Dessa forma, é fundamental que o governo, junto às empresas de telecomunicação, amplie o acesso à internet e invista em projetos de educação digital nas escolas, para que a inclusão digital deixe de ser um privilégio e se torne um direito real para todos." },
-  { titulo: "Redação 06", texto: "A cultura fitness tem ganhado cada vez mais espaço na atualidade, impulsionada pelas redes sociais que incentivam a prática de exercícios físicos e a alimentação saudável. Com esses estímulos, muitas pessoas buscam uma mudança positiva no estilo de vida. No entanto, a busca pelo chamado "corpo perfeito" também gera comparações constantes e a procura excessiva por padrões muitas vezes inalcançáveis.
-Por um lado, é fundamental destacar os benefícios do estilo de vida saudável tanto para a saúde física quanto para a mental. A prática regular de atividades físicas ajuda na prevenção de doenças e aumenta a disposição no dia a dia. Além disso, muitas pessoas encontram no esporte uma forma de desenvolver disciplina, aliviar o estresse e adquirir mais autoconfiança. Dessa maneira, quando praticada com equilíbrio, a rotina fitness promove o bem-estar integral.
-Por outro lado, há a exposição excessiva de corpos considerados perfeitos que, na verdade, são irreais e moldados por filtros e procedimentos estéticos. Influenciadores digitais frequentemente divulgam esses padrões inatingíveis. Como consequência, o número de pessoas com transtornos alimentares e problemas psicológicos aumentou drasticamente devido à pressão para atingir um corpo idealizado.
-Portanto, a cultura fitness pode gerar bem-estar ou se tornar uma busca prejudicial, dependendo de como é encarada. Assim, é necessário promover o equilíbrio, valorizando o cuidado real com a saúde em vez da estética extrema. Além disso, a sociedade e as redes sociais devem incentivar a aceitação corporal e o respeito às diferentes formas físicas.
-." },
-  { AGRO FORTE, FUTURO SUSTENTÁVEL: EQUILÍBRIO ENTRE PRODUÇÃO E MEIO AMBIENTE : "Redação 07", texto: "A modernização das tecnologias no campo transformou a dinâmica do setor agrícola, trazendo mudanças significativas para o cultivo de alimentos. Nesse contexto, torna-se indispensável buscar um ponto de harmonia entre inovação e mão de obra para garantir resultados satisfatórios tanto para o agronegócio quanto para a sociedade. Dessa forma, o uso consciente desses recursos contribui para uma agricultura mais eficiente e sustentável.
-Em primeiro lugar, os avanços técnicos ajudam a conciliar a produtividade com a preservação ambiental. Segundo o pesquisador e agrônomo José Graziano da Silva, a agricultura moderna une sustentabilidade e qualidade de vida no campo. Sob essa ótica, máquinas avançadas conseguem aplicar fertilizantes e defensivos com muito mais precisão, o que reduz desperdícios e diminui os impactos na natureza. Além disso, drones e sistemas digitais auxiliam no monitoramento das plantações, tornando as decisões mais assertivas a longo prazo.
-Por outro lado, a estabilidade no setor rural não depende apenas de ferramentas digitais. Também é fundamental valorizar os trabalhadores do campo, oferecendo melhores condições laborais e acesso à capacitação profissional. Assim, o progresso tecnológico não deve substituir o ser humano, mas sim atuar como um aliado para aumentar a produtividade e melhorar a qualidade de vida de quem trabalha na terra.
-Dessa forma, fica evidente que o sucesso no campo depende da união entre inovação e valorização humana. Portanto, é necessário que o Estado, em parceria com empresas do setor, invista em tecnologias sustentáveis e promova cursos de qualificação para os agricultores. Somente assim será possível garantir uma produção responsável, capaz de atender às necessidades atuais sem prejudicar o meio ambiente.
-." },
-  { Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil: "Redação 08", texto: "Na música “Corra, do rapper Djonga, o trecho “ éramos milhões, até que vieram vilões, o ataque nosso não bastou fui de bastão, eles tinham a pólvora” retrata, de forma crítica, a transformação provocada pela violência e pela desigualdade sobre a realidade dos povos originários brasileiros, que apesar de terem seus direitos reconhecidos pela Constituição Federal de 1988, ainda enfrenta obstáculos para exercer plenamente sua cidadania. Nesse sentido, a dificuldade de efetivação dos direitos constitucionais e a desvalorização da identidade da cultura indígena se tornam um desafios para a expansão da cidadania desses povos. Em primeiro lugar, a garantia dos direitos previstos na Constituição ainda esbarra em dificuldades na prática. O artigo 231 reconhece aos povos indígenas sua organização social, costumes, línguas, crenças e tradições além dos direitos originários sobre as terras que ocupam. Entretanto, conflitos territoriais, invasões e a exploração ilegal dos seus recursos naturais mostram que o reconhecimento jurídico não é suficiente quando não existe amparo efetivo, dessa maneira, a distância entre os direitos estabelecidos pelas legislação e a suplicação contribuiu para limitar a cidadania indígena Além disso, a desvalorização cultural também dificulta a inclusão dos povos originários na sociedade. A permanência de estereótipos e a falta de conhecimento sobre a diversidade das comunidades indígenas contribui para sua invisibilidade. Nesse contexto, a crítica presente em “ corra”, de Djonga, ao retratar indivíduos afetados por uma realidade marcada pela desigualdade, permite estabelecer uma relação a trajetória histórica dos povos originários que também enfrentam processos de exclusão e silenciado. Assim reconhecer suas identidades culturais é seu direitos é fundamental para garantir uma cidadania verdadeira e democrática Portanto, é preciso ampliar a efetivação da cidadania indígena no Brasil.para isso, o governo federal em parceria com a Funai, deve fortalecer a fiscalização e a proteção dos territórios, assegurando o cumprimento dos direitos previstos na Constituição. Além disso, o Ministério de Educação precisa ampliar o ensino da história das culturas indígenas nas escolas, com a participação das próprias comunidades na produção dos conteúdos. Dessa forma, será possível enfrentar esses ataques direcionados aos povos originários é aproximar a realidade brasileira dos direitos que eles são garantidos pela Constituição." },
-  { Consumo, mídia e cultura: como referências mediadas por algoritmos influenciam os modos de vida na sociedade contemporânea: "Redação 09", texto: "Na sociedade contemporânea, os meios de comunicação desempenha papel muito importante na construção de comportamentos, valores e hábitos de consumo essa realidade aparece na música “admirável chip novo”, de Pitty, na qual a cantora afirma que “ nada é orgânico, tudo é programado”, deixando claro uma crítica a influência de sistemas externos sobre as escolhas individuais. Hoje, essa reflexão se conecta ao funcionamento das plataformas digitais, em que o algoritmo seleciona e direciona um conteúdos de acordo com os interesse dos usuários. Assim, a personalização do algoritmo contribui para padronizar referências culturais e para incentivar o consumo e a comparação social, afetando diretamente os modos de vida na sociedade Em primeiro lugar, vale entender porque as pessoas continuam consumindo o conteúdo selecionados pelos algoritmos. As plataformas digitais são estruturadas para apresentar conteúdos capazes de chamar atenção do usuário de forma rápida, como vídeos curtos, tendência e recomendações personalizadas. Esse contato frequente com o que parece interessante pode ser ligado ao sistema de recompensa do cérebro, envolvendo a Dopamina, um neurotransmissor relacionado a sensação de prazer e recompensa. Assim, a sequência de novidades e estímulos pode incentivar o indivíduo continuar rolando a tela e buscando novos conteúdos , os algoritmos não só acompanham os interesses dos usuários, mas também ajudam a manter a atenção, favorecendo o consumo contínuo da internet A partir dos registros coletados sobre o usuário, as plataformas orientam anúncios, produtos e tendências de forma personalizada, fazendo com que se incorpore cada vez mais na experiência cotidiana. Paralelamente, a comparação com outras pessoas se agrava pela exposição a versão selecionadas idealizadas das vidas de outras pessoas .Desse modo, concretiza-se a ideia popular de que “ a grama do vizinho é mais verde”, uma vez que o indivíduo pode interpretar aquilo que vem nas redes sociais como um padrão a ser alcançado , consumir determinados produtos ou adotar certo estilos de vida passando a ser visto como sinônimo de pertencimento e felicidade e fazendo você ser reconhecido socialmente Portanto, é necessário fortalecer a capacidade de decisão dos indivíduos diante das influências da internet. Nesse sentido, o Ministério da Educação, em parceria com escolas e plataformas digitais, programas de educação mediático, por meio de aulas, oficinas e campanhas, para capacitar os estudantes a identificar se estão sendo influenciado, ando também e estratégias de estímulo ao consumo. Além disso, as plataformas devem ampliar a transparência sobre os critérios utilizados para sancionar conteúdos e anúncios. Assim será possível formar usuários mais críticos e conscientes, aptos utilizar a mídia sem permitir serem influenciadas ocasionando a mudança de hábitos." },
-  { Os desafios para a preservação dos monumentos históricos no Brasil contemporâneo: "Redação 10", texto: "Na obra Odisseia, atribuída a Homero, é retratada a história da Guerra de Troia, na qual os soldados gregos saem do Cavalo de Troia e invadem a cidade, provocando destruição, inclusive de espaços sagrados. Essa representação demonstra como a desvalorização de lugares históricos e culturais pode resultar na destruição de elementos importantes para a memória de uma sociedade. De maneira semelhante, atualmente, muitas pessoas picham monumentos, saqueiam e danificam construções antigas, além de não reconhecerem a importância desses espaços.
+  {
+    titulo: "Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico",
+    texto: `As mudanças do ciclo da água são influenciadas pelo efeito estufa, que causa ondas de calor excessivas, podendo ser motivo de muitos desastres naturais, como ocorreu no rompimento da barragem de Brumadinho, quando a barragem da mina Córrego do Feijão se rompeu, ocasionando muitas mortes e a destruição do rio Paraopeba.
 
-Em primeiro lugar, é importante destacar a falta de conscientização da sociedade em relação aos patrimônios históricos. Isso acontece porque muitas pessoas não compreendem o valor cultural e histórico desses locais, tratando-os com desrespeito e contribuindo para sua deterioração. Como consequência, construções e monumentos que representam a identidade de um povo acabam sendo prejudicados.
+Além disso, o agravamento do efeito estufa intensifica fenômenos climáticos extremos, como chuvas fortes e secas prolongadas, afetando diretamente o equilíbrio natural do ciclo da água e as pessoas, especialmente em regiões mais vulneráveis, onde a falta de fiscalização e planejamento aumenta esses riscos.
 
-Além disso, a negligência do poder público intensifica essa problemática, uma vez que muitos patrimônios históricos não recebem os cuidados e investimentos necessários para sua conservação. A falta de fiscalização e de projetos de restauração permite que esses espaços sejam abandonados e destruídos, causando perdas importantes para a história do país.
+Desse modo, é essencial implementar medidas que reduzam os efeitos do aquecimento global e preservem o ciclo da água.`
+  },
+  {
+    titulo: "A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras",
+    texto: `É fundamental respeitar as diferenças das pessoas ao tentar diminuir os conflitos que surgem hoje em dia devido à diversidade de culturas, sociedades e opiniões. A intolerância para com o que é diferente cria as bases para preconceitos, discriminação e violência.
 
-Portanto, é necessário combater o desrespeito aos patrimônios históricos no Brasil. Para isso, o Ministério da Cultura, em parceria com as escolas e as prefeituras, deve promover campanhas educativas, palestras e projetos de conscientização sobre a importância da preservação histórica. Além disso, é fundamental ampliar a fiscalização e os investimentos na restauração desses locais. Assim, será possível preservar a memória cultural e garantir que as próximas gerações conheçam e valorizem sua própria história.." },
-  { Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social: "Redação 11", texto: "No filme Interestelar, dirigido por Christopher Nolan, a humanidade enfrenta uma grande crise ambiental que ameaça a sua sobrevivência fazendo com que cientistas busquem alternativas fora da terra. Mesmo sendo uma ficção, a obra retrata a importância da ciência e da exploração espacial para lidar com os desafios futuros. Assim, no século XXI, os avanços e pesquisas espaciais representam uma oportunidade para ampliar o conhecimento e criar novas tecnologias Entretanto, esse progresso deve viver acompanhado de responsabilidades para evitar os impactos ambientais, sociais e éticos. Em primeiro lugar, a exploração espacial contribuiu para o avanço científico e tecnológico. As pesquisas realizadas para compreender outros planetas e o funcionamento do universo podem gerar conhecimentos e tecnologias que se aplicam na vida cotidiana. Além disso, a observação do espaço permitem compreender melhor as mudanças que ocorrem na própria terra Assim, investir na ciência também é ampliar a capacidade da humanidade de lidar com situações futuras que podem ocorrer. Por outro lado, o avanço científico não vem acompanhado da responsabilidade, ele pode gerar consequências negativas. O uso excessivo de recursos, o aumento de lixo espacial é a disputa de países entre domínio tecnológico mostram que a exploração espacial não deve ser guiada apenas por interesses econômicos ou políticos. Como aconteceu em interestelar, a ciência pode ser essencial para garantir um bom futuro, mas precisa caminhar junto com a preservação é a cooperação entre as nações. Por isso, é importante alinhar o desenvolvimento da exploração com a científica Para isso, governos, universidades e agências espaciais devem aumentar o aumento de verba, estabelecer direitos globais para diminuição de lixo no espaço e promover a colaboração científica entre Nações. Ao mesmo tempo, é fundamental que a população seja informada sobre a relevância da ciência é a necessidade de seu uso." },
-  { Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira: "Redação 12", texto: "No filme Rio, é retratada a história de uma arara-azul chamada Blu, que pertence a uma espécie ameaçada de extinção devido ao tráfico de animais e à destruição de seu habitat natural. Fora da ficção, essa realidade também está presente no Brasil, onde diversas espécies da fauna brasileira enfrentam riscos de desaparecer. Nesse contexto, a caça ilegal e o desmatamento representam grandes obstáculos para a conservação dos animais e para o equilíbrio ecológico.
+A educação serve como base para a formação de cidadãos conscientes de seus direitos e empáticos com os outros. Ela promove o diálogo, conectando as pessoas por meio do respeito mútuo.
 
-Em primeiro lugar, é importante destacar o tráfico de animais silvestres como um dos principais fatores que contribuem para a extinção de espécies. Isso acontece porque muitos animais são retirados de seu habitat natural e comercializados ilegalmente, prejudicando sua reprodução e diminuindo a quantidade de indivíduos na natureza. Dessa maneira, a exploração da fauna ameaça a biodiversidade brasileira e coloca em risco a sobrevivência de diversas espécies.
+A diversidade é essencial para a democracia, pois cria espaço para que inúmeras ideias e perspectivas coexistam sem perder sua identidade.`
+  },
+  {
+    titulo: "O uso da Inteligência Artificial e as deepfakes: o que é real e o que é fictício na vida online?",
+    texto: `Hoje em dia, a inteligência artificial está cada vez mais presente no cotidiano das pessoas, principalmente no ambiente online. Ela pode ser vista nas redes sociais, nos aplicativos de compras, nos estudos e até no atendimento de empresas.
 
-Além disso, o desmatamento intensifica essa problemática, uma vez que a destruição das florestas faz com que muitos animais percam seus abrigos e fontes de alimento. Como consequência, ocorre o desequilíbrio das cadeias alimentares, afetando não apenas os animais, mas também o funcionamento dos ecossistemas. Assim, a falta de preservação ambiental compromete a manutenção da vida na natureza.
+Em primeiro lugar, a inteligência artificial ajuda bastante no dia a dia. Ela contribui para a organização de tarefas, indica conteúdos de interesse e ainda auxilia os estudantes nos estudos.
 
-Portanto, é necessário ampliar a proteção da fauna brasileira. Para isso, o Ministério do Meio Ambiente, em parceria com o IBAMA, deve intensificar a fiscalização contra o tráfico de animais e promover campanhas educativas nas escolas e nas redes sociais, a fim de conscientizar a população sobre a importância da biodiversidade. Além disso, é fundamental investir na preservação dos habitats naturais e na recuperação de áreas desmatadas. Dessa forma, será possível proteger as espécies ameaçadas e manter o equilíbrio ecológico.." },
-  { Migração e acolhimento: desafios da convivência em contextos globais: "Redação 13", texto: "Na sociedade contemporânea, é importante que sejam discutidos os desafios enfrentados pelas pessoas imigrantes. Nesse contexto, a série Maid ilustra bem a vulnerabilidade e os obstáculos para conseguir apoio social que, por analogia, assemelham-se à realidade de quem migra para outro país em busca de melhores condições. Dessa forma, torna-se fundamental analisar os fatores que dificultam esse acolhimento para enfrentar o problema.
-Entre os principais entraves, destaca-se a xenofobia contra os imigrantes. Isso ocorre porque muitos enfrentam barreiras para se adaptar ao novo idioma e aos costumes locais, o que interfere diretamente na inserção dessas pessoas no mercado de trabalho e na sociedade, contribuindo para o preconceito e a exclusão social. Portanto, torna-se evidente que combater essa intolerância o quanto antes é essencial para garantir o respeito às diferentes culturas.
-Logo, é necessário adotar medidas para superar essas dificuldades. Para isso, o Ministério dos Direitos Humanos e da Cidadania, em conjunto com o Ministério da Educação, deve promover aulas e palestras sobre diversidade cultural nas escolas e comunidades, por meio de materiais didáticos inclusivos e rodas de conversa. Essa ação tem como objetivo combater a xenofobia, facilitando a adaptação dos imigrantes e promovendo uma convivência mais respeitosa.
-." },
-  { El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos: "Redação 14", texto: "Na sociedade em que vivemos atualmente, é importante discutir os impactos do El Niño. Nesse contexto, o livro O Quinze, de Rachel de Queiroz, retrata as dificuldades sociais diante de eventos climáticos e da falta de recursos, evidenciando a necessidade de políticas públicas para prevenir esses problemas. Dessa forma, é imprescindível buscar medidas para enfrentar essa situação.
+Por outro lado, o uso exagerado e sem fiscalização pode causar consequências negativas. A propagação de fake news, a falta de privacidade e a dependência tecnológica são problemas que preocupam bastante.`
+  },
+  {
+    titulo: "O respeito às diferenças como caminho para a superação dos conflitos sociais na sociedade contemporânea",
+    texto: `A sociedade contemporânea é muito preocupada com a sua imagem corporal, fazendo com que muita gente procure o emagrecimento acima de tudo para se adequar a determinados padrões de beleza.
 
-Em primeiro lugar, é importante ressaltar a falta de planejamento das cidades, que dificulta a preparação da sociedade diante de eventos climáticos extremos. Algumas localidades não possuem infraestrutura adequada para enfrentar situações de enchentes e chuvas intensas, aumentando os riscos para a população. Dessa maneira, a ausência de planejamento compromete a segurança e a qualidade de vida das pessoas.
+Mas o abuso desses remédios pode trazer uma série de riscos à saúde. Sem monitoramento médico, as pessoas podem experimentar reações adversas, como náuseas, fraqueza e até mais complicações de saúde.
 
-Além disso, a falta de investimentos em medidas preventivas agrava os impactos desses fenômenos. Sem sistemas de alerta e ações de prevenção, a população fica mais vulnerável aos prejuízos causados pelas mudanças climáticas, principalmente nas regiões mais afetadas.
+Por isso, faz-se necessária uma maior conscientização em relação à forma adequada de utilização desses medicamentos e aos riscos de seu uso indiscriminado.`
+  },
+  {
+    titulo: "Inclusão digital no Brasil: caminhos e desafios na sociedade contemporânea",
+    texto: `Na nossa sociedade, a inclusão digital é um desafio que vai além de simplesmente ter acesso à internet. Trata-se de garantir que todas as pessoas possam participar, de forma justa, da vida social, educacional e profissional.
 
-Portanto, torna-se evidente que fenômenos climáticos como o El Niño exigem maior atenção para evitar situações de risco. Logo, é necessário adotar medidas para enfrentar seus impactos. Para isso, o poder público, em parceria com os órgãos ambientais, deve investir em ações preventivas, como a melhoria da infraestrutura urbana e a criação de sistemas de alerta, a fim de proteger a população e reduzir os prejuízos causados por esses fenômenos.." },
-  { titulo: "Redação 15", texto: "Adicione aqui sua décima quinta redação." },
-  { titulo: "Redação 16", texto: "Adicione aqui sua décima sexta redação." },
-  { titulo: "Redação 17", texto: "Adicione aqui sua décima sétima redação." }
+Nessa perspectiva, a Constituição Federal de 1988 assegura o direito à informação, mas na prática isso nem sempre se concretiza para todos.
+
+Dessa forma, é fundamental que o governo, junto às empresas de telecomunicação, amplie o acesso à internet e invista em projetos de educação digital nas escolas.`
+  },
+  {
+    titulo: "Cultura fitness: saúde, estética e os padrões de beleza na sociedade",
+    texto: `A cultura fitness tem ganhado cada vez mais espaço na atualidade, impulsionada pelas redes sociais que incentivam a prática de exercícios físicos e a alimentação saudável.
+
+Por um lado, é fundamental destacar os benefícios do estilo de vida saudável tanto para a saúde física quanto para a mental. A prática regular de atividades físicas ajuda na prevenção de doenças e aumenta a disposição no dia a dia.
+
+Por outro lado, há a exposição excessiva de corpos considerados perfeitos que, na verdade, são irreais e moldados por filtros e procedimentos estéticos.
+
+Portanto, a cultura fitness pode gerar bem-estar ou se tornar uma busca prejudicial, dependendo de como é encarada.`
+  },
+  {
+    titulo: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente",
+    texto: `A modernização das tecnologias no campo transformou a dinâmica do setor agrícola, trazendo mudanças significativas para o cultivo de alimentos.
+
+Em primeiro lugar, os avanços técnicos ajudam a conciliar a produtividade com a preservação ambiental. Máquinas avançadas conseguem aplicar fertilizantes e defensivos com muito mais precisão.
+
+Por outro lado, também é fundamental valorizar os trabalhadores do campo, oferecendo melhores condições laborais e acesso à capacitação profissional.
+
+Dessa forma, fica evidente que o sucesso no campo depende da união entre inovação e valorização humana.`
+  },
+  {
+    titulo: "Povos originários e direitos constitucionais: desafios para a efetivação da cidadania indígena no Brasil",
+    texto: `Na música "Corra", do rapper Djonga, é retratada, de forma crítica, a transformação provocada pela violência e pela desigualdade sobre a realidade dos povos originários brasileiros.
+
+Em primeiro lugar, a garantia dos direitos previstos na Constituição ainda esbarra em dificuldades na prática. O artigo 231 reconhece aos povos indígenas sua organização social, costumes, línguas, crenças e tradições.
+
+Além disso, a desvalorização cultural também dificulta a inclusão dos povos originários na sociedade.
+
+Portanto, é preciso ampliar a efetivação da cidadania indígena no Brasil.`
+  },
+  {
+    titulo: "Consumo, mídia e cultura: como referências mediadas por algoritmos influenciam os modos de vida na sociedade contemporânea",
+    texto: `Na sociedade contemporânea, os meios de comunicação desempenham papel muito importante na construção de comportamentos, valores e hábitos de consumo.
+
+Em primeiro lugar, vale entender por que as pessoas continuam consumindo os conteúdos selecionados pelos algoritmos. As plataformas digitais são estruturadas para apresentar conteúdos capazes de chamar a atenção do usuário.
+
+A partir dos registros coletados sobre o usuário, as plataformas orientam anúncios, produtos e tendências de forma personalizada.
+
+Portanto, é necessário fortalecer a capacidade de decisão dos indivíduos diante das influências da internet.`
+  },
+  {
+    titulo: "Os desafios para a preservação dos monumentos históricos no Brasil contemporâneo",
+    texto: `Na obra Odisseia, atribuída a Homero, é retratada a história da Guerra de Troia, na qual os soldados gregos invadem a cidade, provocando destruição.
+
+Em primeiro lugar, é importante destacar a falta de conscientização da sociedade em relação aos patrimônios históricos.
+
+Além disso, a negligência do poder público intensifica essa problemática.
+
+Portanto, é necessário combater o desrespeito aos patrimônios históricos no Brasil.`
+  },
+  {
+    titulo: "Exploração espacial no século XXI: desafios para a conciliação entre avanço científico e responsabilidade social",
+    texto: `No filme Interestelar, dirigido por Christopher Nolan, a humanidade enfrenta uma grande crise ambiental que ameaça a sua sobrevivência.
+
+Em primeiro lugar, a exploração espacial contribui para o avanço científico e tecnológico.
+
+Por outro lado, se o avanço científico não vier acompanhado de responsabilidade, ele pode gerar consequências negativas.
+
+Por isso, é importante alinhar o desenvolvimento da exploração científica à responsabilidade social.`
+  },
+  {
+    titulo: "Espécies em extinção e equilíbrio ecológico: desafios para a conservação da fauna brasileira",
+    texto: `No filme Rio, é retratada a história de uma arara-azul chamada Blu, que pertence a uma espécie ameaçada de extinção devido ao tráfico de animais e à destruição de seu habitat natural.
+
+Em primeiro lugar, é importante destacar o tráfico de animais silvestres como um dos principais fatores que contribuem para a extinção de espécies.
+
+Além disso, o desmatamento intensifica essa problemática.
+
+Portanto, é necessário ampliar a proteção da fauna brasileira.`
+  },
+  {
+    titulo: "Migração e acolhimento: desafios da convivência em contextos globais",
+    texto: `Na sociedade contemporânea, é importante que sejam discutidos os desafios enfrentados pelas pessoas imigrantes.
+
+Entre os principais entraves, destaca-se a xenofobia contra os imigrantes. Isso ocorre porque muitos enfrentam barreiras para se adaptar ao novo idioma e aos costumes locais.
+
+Logo, é necessário adotar medidas para superar essas dificuldades.`
+  },
+  {
+    titulo: "El Niño e mudanças climáticas: desafios para a preparação da sociedade diante de eventos extremos",
+    texto: `Na sociedade em que vivemos atualmente, é importante discutir os impactos do El Niño.
+
+Em primeiro lugar, é importante ressaltar a falta de planejamento das cidades, que dificulta a preparação da sociedade diante de eventos climáticos extremos.
+
+Além disso, a falta de investimentos em medidas preventivas agrava essa problemática.
+
+Portanto, torna-se evidente que fenômenos climáticos como o El Niño exigem maior atenção.`
+  },
+  {
+    titulo: "Redação 15",
+    texto: "Adicione aqui sua décima quinta redação."
+  },
+  {
+    titulo: "Redação 16",
+    texto: "Adicione aqui sua décima sexta redação."
+  },
+  {
+    titulo: "Redação 17",
+    texto: "Adicione aqui sua décima sétima redação."
+  }
 ];
+
+// ELEMENTOS DO HTML
 
 const lista = document.getElementById("listaRedacoes");
 const modal = document.getElementById("modal");
@@ -65,49 +149,71 @@ const tituloModal = document.getElementById("tituloModal");
 const textoModal = document.getElementById("textoModal");
 const fechar = document.getElementById("fechar");
 
-// Cria automaticamente os 17 cards
-redacoes.forEach((redacao, indice) => {
-  const card = document.createElement("button");
+let ultimoCard = null;
 
-  card.className = "card-redacao";
-  card.type = "button";
+// CRIA OS CARDS
 
-  const numero = document.createElement("span");
-  numero.textContent = String(indice + 1).padStart(2, "0");
+if (lista && modal && tituloModal && textoModal && fechar) {
 
-  const titulo = document.createElement("h3");
-  titulo.textContent = redacao.titulo;
+  redacoes.forEach((redacao, indice) => {
 
-  const descricao = document.createElement("p");
-  descricao.textContent = "Clique para ler a redação completa.";
+    const card = document.createElement("button");
+    card.className = "card-redacao";
+    card.type = "button";
 
-  card.append(numero, titulo, descricao);
+    const numero = document.createElement("span");
+    numero.className = "numero-redacao";
+    numero.textContent = String(indice + 1).padStart(2, "0");
 
-  card.addEventListener("click", () => {
-    tituloModal.textContent = redacao.titulo;
-    textoModal.textContent = redacao.texto;
-    modal.classList.add("ativo");
+    const titulo = document.createElement("h3");
+    titulo.textContent = redacao.titulo;
+
+    const descricao = document.createElement("p");
+    descricao.textContent = "Clique para ler a redação completa.";
+
+    card.append(numero, titulo, descricao);
+
+    card.addEventListener("click", () => {
+      ultimoCard = card;
+
+      tituloModal.textContent = redacao.titulo;
+      textoModal.textContent = redacao.texto;
+
+      modal.hidden = false;
+      modal.classList.add("ativo");
+
+      fechar.focus();
+    });
+
+    lista.appendChild(card);
   });
 
-  lista.appendChild(card);
-});
+  // FECHAR MODAL
 
-// Fecha a janela de leitura
-fechar.addEventListener("click", () => {
-  modal.classList.remove("ativo");
-});
-
-modal.addEventListener("click", (evento) => {
-  if (evento.target === modal) {
+  function fecharModal() {
     modal.classList.remove("ativo");
+    modal.hidden = true;
+
+    if (ultimoCard) {
+      ultimoCard.focus();
+    }
   }
-});
 
-document.addEventListener("keydown", (evento) => {
-  if (evento.key === "Escape") {
-    modal.classList.remove("ativo");
-  }
-});
+  fechar.addEventListener("click", fecharModal);
 
+  modal.addEventListener("click", (evento) => {
+    if (evento.target === modal) {
+      fecharModal();
+    }
+  });
 
+  document.addEventListener("keydown", (evento) => {
+    if (evento.key === "Escape" && !modal.hidden) {
+      fecharModal();
+    }
+  });
+
+} else {
+  console.error("Erro: elementos das redações não encontrados no HTML.");
+}
 
